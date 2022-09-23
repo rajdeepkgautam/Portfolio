@@ -1,0 +1,139 @@
+*{
+    background-color: #D4F1F4;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    position: relative;
+    height: 30px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#189AB4;
+    font-size:24px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#145DA0;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #05445E;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: #a5e5ec;
+    align-content: space-between;
+    margin: 20px 10px;
+    border: 5px solid #189AB4;
+    /* align-items: center; */
+    
+}
+
+.flex-container div{
+    /* margin: 10px;  */
+    padding: 20px;
+    width: 50vw;
+    height: 75vh;
+    
+    
+    
+}
+
+.button1 {
+    background-color: #0C2D48;
+    border:3px solid #189AB4;
+    border-radius: 15%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: 75px;
+  }
+
+  .button1:hover{
+    background-color: #189AB4;
+    border:3px solid #0C2D48;
+    box-shadow: 5px 10px 8px lightseagreen ;
+  }
+
+  .profilePic{
+    position: relative;
+    left: 40%;
+    top: 5%;
+    transition: bottom 1s, left 1s;
+  }
+
+  .intro{
+    font-size: 30px;
+  
+  }
+
+  .intro h4, span, h1{
+   position: relative;
+   top: 75px;
+  
+  }
+
+  .profilePic:hover{
+    position: relative;
+    left: 25%;
+   
+    
+  }
+  
+  
+/* 
+  .images{
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .profilePic{
+    position: relative;
+    left: 20%;
+  } 
+  .profilePic{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2; 
+    
+
+  }
+   .backgroundPic{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 1;
+    width: 494px;
+    height: 408px;
+
+  }*/
+
+  
