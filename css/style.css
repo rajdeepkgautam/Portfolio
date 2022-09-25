@@ -5,6 +5,7 @@
 	padding:0px;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+    
 }
 .section{
 	width: 100%;
@@ -120,6 +121,102 @@
 }
 
 }
+
+
+/* *********************************NAV******************************************** */
+
+html{
+    scroll-behavior: smooth;;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+  }
+  .sticky + .section {
+    padding-top: 60px;
+  }
+
+.nav{
+    display: flex;
+    position: relative;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#189AB4;
+    font-size:24px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 30px;
+    
+}
+
+  ul li a {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    margin: 3px 0;
+    padding: 6px 12px; 
+    text-decoration: none;
+    color: #400D51;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    z-index: 1;
+ }
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #400D51;
+    border-bottom: 2px solid #400D51;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: 0.3s;
+ }
+  ul li a:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #400D51;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+    z-index: -1;
+ }
+  ul li a:hover {
+    color: #fff;
+ }
+  ul li a:hover:before {
+    transform: scaleY(1);
+    opacity: 1;
+ }
+  ul li a:hover:after {
+    transform: scaleY(1);
+    opacity: 1;
+ }
+
+
+/* ------------------------------------ABOUT-------------------------------------------------- */
 
 .skills{
 
